@@ -5,6 +5,7 @@ const NavBar = () => {
   return (
     <div className='main'>
       <img src="\logo.png" alt="logo" />
+      <h1 >Food Point</h1>
       <div className='btn_grp'>
         <Button/>
         <Button/>

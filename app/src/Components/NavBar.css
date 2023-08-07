@@ -1,15 +1,21 @@
 .main{
+    margin-top: 2rem;
+    margin-left: 2rem;
     background: transparent;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    max-width: 10rem;
-    height: 100vh;
     gap: 3rem;
 }
 
 .main img{
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.btn_grp{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-right: 30rem;
 }
