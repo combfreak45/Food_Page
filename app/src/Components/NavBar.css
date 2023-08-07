@@ -1,0 +1,15 @@
+.main{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 10rem;
+    height: 100vh;
+    gap: 3rem;
+}
+
+.main img{
+    width: 6rem;
+    height: 6rem;
+}
