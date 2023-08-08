@@ -1,0 +1,12 @@
+.btn button{
+    padding: 0.4rem;
+    background-color: red;
+    border-radius: 0.8rem;
+    color: white;
+    min-width: 2rem;
+    text-align: center;
+    &:hover{
+        font-size: large;
+
+    }
+}

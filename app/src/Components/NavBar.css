@@ -16,6 +16,17 @@
 .btn_grp{
     display: flex;
     justify-content: space-between;
-    gap: 3rem;
+    gap: 5rem;
     margin-right: 30rem;
+}
+
+.btn_grp input {
+    background-color: red;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: center;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
 }
