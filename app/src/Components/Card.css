@@ -1,6 +1,6 @@
 
 .card {
-    font-size: small;
+    font-size: 0.3rem;
     max-width: 16rem;
     display: flex;
     justify-content: space-between;

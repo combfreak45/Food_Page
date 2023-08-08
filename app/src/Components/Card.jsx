@@ -1,13 +1,13 @@
 import React from 'react'
 import './Card.css'
-function Card() {
+function Card({name,image,text,price}) {
   return (
     <div className='card'>
-      <div><img src="#" alt="img" /></div>
+      <div><img src ={image} alt="img" /></div>
       <div>
-      <h1>Name</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <h3>78</h3>
+      <h1>{name}</h1>
+      <p>{text}</p>
+      <h3>{price}</h3>
       </div>
     </div>
   )
