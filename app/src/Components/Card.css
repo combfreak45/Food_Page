@@ -1,7 +1,8 @@
 
 .card {
-    font-size: 0.3rem;
-    max-width: 16rem;
+    font-size: 0.7rem;
+    max-width: 15rem;
+    max-height: 8rem;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -11,8 +12,16 @@
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(1rem);
 }
-
+.card img {
+    height: 4rem;
+    width: 4rem;
+}
 .card-footer {
     font-size: 0.65em;
     color: #446;
+}
+
+.card_h{
+    display: flex;
+    flex-direction: column;
 }

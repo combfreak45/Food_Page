@@ -1,13 +1,17 @@
 import React from 'react'
 import './NavBar.css'
-import Button from './Button';
 const NavBar = ({ searchFood, filterBtns,selectedBtn,filterFood}) => {
   return (
-    <div className="main">
-      <img src="\logo.png" alt="logo" />
-      <h1>Food Point</h1>
+    <div className="main_n">
+      <div className="main_h">
+        <img src="\logo.png" alt="logo" />
+        <h1>Food Point</h1>
+      </div>
+      <div className='main_s'>
+       <h3>Find your Food</h3>
+      <input onChange={searchFood} type="text" placeholder="hello" />
+      </div>
       <div className="btn_grp">
-
         {filterBtns.map((value) => (
           <button
             isSelected={selectedBtn === value.type}
@@ -17,7 +21,6 @@ const NavBar = ({ searchFood, filterBtns,selectedBtn,filterFood}) => {
             {value.name}
           </button>
         ))}
-        <input onChange={searchFood} type="text" placeholder="hello" />
       </div>
     </div>
   );
